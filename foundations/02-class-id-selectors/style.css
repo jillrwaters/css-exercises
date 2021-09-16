@@ -1,4 +1,10 @@
 .oddNums {
     font-family: verdana, sans-serif;
-    background-color: #ff008080
+    background-color: #f5499f52;
+}
+
+#secondEle {
+    color: rgba(0, 0, 255, 0.699);
+    font-size: 36px;
+
 }
