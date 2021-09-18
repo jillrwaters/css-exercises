@@ -15,16 +15,23 @@ body {
   background: #e3f4ff;
   padding: 5px;
   margin: 0;
+    border: 10px white solid;
+
 }
 
 .content {
   background: #e3f4ff;
   padding: 10px 5px;
+    border: 10px white solid;
+
 }
 
 .button {
   background: #e3f4ff;
   text-align: center;
+  border: 10px white solid;
+  padding: 10px;
+
 }
 
 button {
@@ -33,3 +40,4 @@ button {
   padding: 5px 15px;
   display: inline-block;
 }
+
