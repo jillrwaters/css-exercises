@@ -5,32 +5,25 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 410px;
   background: #fff;
   margin: 16px auto;
-  /* border: 5px white solid; */
 }
 
 .title {
   background: #e3f4ff;
-  padding: 5px;
   margin: 0;
-    border: 10px white solid;
 
 }
 
 .content {
   background: #e3f4ff;
-  padding: 10px 5px;
-    border: 10px white solid;
 
 }
 
 .button {
   background: #e3f4ff;
   text-align: center;
-  border: 10px white solid;
-  padding: 10px;
 
 }
 
@@ -41,3 +34,14 @@ button {
   display: inline-block;
 }
 
+.card,
+.card h1,
+.card div {
+    border: 5px white solid;
+}
+
+.title,
+.content,
+.button {
+  padding: 10px;
+}
