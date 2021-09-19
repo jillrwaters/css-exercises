@@ -21,11 +21,11 @@ ul {
 
 }
 
-.left {
+.left-links {
   align-self: flex-start;
 }
 
-.right {
+.right-links {
   align-self: flex-end;
 }
 
