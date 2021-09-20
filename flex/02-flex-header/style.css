@@ -9,7 +9,7 @@
 .navbar  {
   background: papayawhip;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 5px;
   /* height: 50px; */
   
@@ -18,20 +18,24 @@
 ul {
   display: flex;
   padding: 3px;
-  justify-content: space-evenly;
-  align-items: center;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
   /* this removes the dots on the list items*/
   list-style-type: none;
   margin: auto;
-  gap: 10px;
-  flex: auto;
+  /* gap: 10px; */
+  /* flex: auto; */
+  gap: 20px;
+  flex-grow: 3
 }
 
 ul.nav-left {
   margin-left: 0;
+  
 }
 ul.nav-right {
   margin-right: 0;
+  justify-content: flex-end;
 }
 a {
   font-size: 16px;
@@ -41,10 +45,10 @@ a {
   text-decoration: none;
 }
 
-h1.logo {
-  /* font-size: 1.5em; */
-  /* font-weight: 700; */
-  /* flex-grow: 1; */
+.logo {
+  font-size: 1.5em;
+  font-weight: 700;
+  flex-grow: 1;
   background-color: white;
   color: red;
   flex: initial;
