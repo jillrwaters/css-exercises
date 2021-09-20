@@ -1,6 +1,7 @@
 * {
   /* box-sizing: border-box; */
   border: 3px red solid;
+  font-family: monospace;
 }
 
 .header  {
@@ -25,12 +26,13 @@ ul {
 }
 
 .left-links {
-  /* display: flex;
-  gap: 5px; */
+  display: flex;
+  gap: 5px;
 }
 
 .right-links {
-  
+  display: flex;
+  /* justify-content: space-evenly; */
 }
 
 a {
