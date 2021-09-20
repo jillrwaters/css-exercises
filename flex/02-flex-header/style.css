@@ -22,15 +22,14 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 5px;
+  flex: 1;
 
 }
 
 .left-links {
-  align-self: flex-start;
 }
 
 .right-links {
-  align-self: flex-end;
 }
 
 a {
