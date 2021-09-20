@@ -1,44 +1,39 @@
 * {
   /* box-sizing: border-box; */
-  border: 3px red solid;
+  border: 1px red solid;
   font-family: monospace;
 }
 
 .navbar  {
-  font-family: monospace;
   background: papayawhip;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* padding: 5px; */
 }
 
 ul {
+      display: flex;
+
   /* this removes the dots on the list items*/
   list-style-type: none;
 }
 a {
-  font-size: 22px;
+  /* font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 8px; */
   /* this removes the line under the links */
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .nav-left {
-  
+    
 }
 
 .logo {
-  font-size: 4em;
+  /* font-size: 4em; */
 }
 
 .nav-right {
-  
-}
-
-
-.nav-left ul li,
-.nav-right ul li {
   
 }
 
