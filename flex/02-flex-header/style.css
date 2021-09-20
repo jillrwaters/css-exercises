@@ -20,15 +20,17 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  display: flex;
-  gap: 5px;
-  justify-content: space-evenly;
+  
+  
 }
 
 .left-links {
+  /* display: flex;
+  gap: 5px; */
 }
 
 .right-links {
+  
 }
 
 a {
