@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px red solid;
+  /* border: 1px red solid; */
   font-family: courier, monospace;
   font-weight: 700;
   text-align: center;
@@ -18,15 +18,12 @@
 ul {
   display: flex;
   padding: 3px;
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
+  
   /* this removes the dots on the list items*/
   list-style-type: none;
   margin: auto;
-  /* gap: 10px; */
-  /* flex: auto; */
   gap: 20px;
-  flex-grow: 3
+  flex: 3 1 auto;
 }
 
 ul.nav-left {
@@ -48,13 +45,17 @@ a {
 .logo {
   font-size: 1.5em;
   font-weight: 700;
-  flex-grow: 1;
   background-color: white;
   color: red;
   flex: initial;
+  padding: 5px 10px;
   
   /* padding: 5px; */
   
+}
+
+ul a {
+  padding: 5px;
 }
 
 
