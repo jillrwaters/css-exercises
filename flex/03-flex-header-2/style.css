@@ -8,10 +8,29 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
+.navbar {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  
+}
+
+.left {
+  display: flex;
+  flex-grow: 3;
+  
+
+}
+
+.right {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.nav {
+  display: flex;
 }
 
 .profile-image {
