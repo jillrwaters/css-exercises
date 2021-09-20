@@ -7,7 +7,7 @@
 .navbar  {
   background: papayawhip;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   /* padding: 5px; */
 }
 
@@ -25,16 +25,21 @@ a {
   /* text-decoration: none; */
 }
 
+.nav {
+  
+}
+
 .nav-left {
-    
+    flex-grow: 2;
 }
 
 .logo {
   /* font-size: 4em; */
+  flex-grow: 1;
 }
 
 .nav-right {
-  
+  flex-grow: 2;
 }
 
 
