@@ -13,10 +13,12 @@
 
 ul.links {
   display: flex;
+  padding: 3px;
   justify-content: space-evenly;
-  align-items: center;
+  /* align-items: center; */
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: auto;
 }
 a {
   /* font-size: 22px;
