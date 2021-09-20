@@ -1,5 +1,6 @@
 * {
   /* box-sizing: border-box; */
+  border: 3px red solid;
 }
 
 .header  {
