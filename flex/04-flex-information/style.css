@@ -1,5 +1,5 @@
 * {
-  border: 1px pink solid;
+  /* border: 1px pink solid; */
 }
 
 body {
@@ -21,9 +21,12 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 25px 100px;
+  gap: 50px;
 }
 
 .card {
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
