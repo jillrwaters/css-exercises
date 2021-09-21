@@ -14,6 +14,30 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card img {
+  flex: 3 1 auto;
+}
+
+.text {
+  margin-bottom: 0;
+  text-align: center;
+  flex: 1 1 auto;
 }
 
 /* do not edit this footer */
