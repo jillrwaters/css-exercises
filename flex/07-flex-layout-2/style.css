@@ -18,8 +18,8 @@ body {
 }
 
 .sidebar {
-  width: 15%;
   /* flex: 1 1 auto; */
+  width: 10vh;
 }
 
 a {
@@ -31,28 +31,35 @@ ul {
   padding-left: 10px;
   display: flex;
   flex-direction: column;
-  /* gap: 5px; */
   justify-content: flex-start;
   
 }
 
 li {
   padding: 5px;
+  font-size: 15px;
 }
 
 .main-container {
   display: flex;
-  /* flex: 2 2 auto; */
+  flex: 2 0 auto;
   
 }
 
 .card-container {
-  /* flex: 1 1 auto; */
-  width: 85%;
+  /* flex: 2 2 auto; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+
 }
 
 .card {
-
+  font-size: 12px;
+  width: 200px;
+  /* height: 100px; */
+  padding: 5px;
 }
 
 .footer {
