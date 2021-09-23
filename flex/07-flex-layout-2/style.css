@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
@@ -14,6 +15,44 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding-left: 5px;
+}
+
+.sidebar {
+  width: 15%;
+  /* flex: 1 1 auto; */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+  justify-content: flex-start;
+  
+}
+
+li {
+  padding: 5px;
+}
+
+.main-container {
+  display: flex;
+  /* flex: 2 2 auto; */
+  
+}
+
+.card-container {
+  /* flex: 1 1 auto; */
+  width: 85%;
+}
+
+.card {
+
 }
 
 .footer {
