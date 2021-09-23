@@ -10,6 +10,7 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
+
 .header, .footer {
   display: flex;
   justify-content: space-between;
@@ -17,6 +18,13 @@ body {
 
 img {
   width: 600px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
