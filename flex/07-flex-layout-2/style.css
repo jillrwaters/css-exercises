@@ -17,11 +17,6 @@ body {
   padding-left: 5px;
 }
 
-.sidebar {
-  /* flex: 1 1 auto; */
-  width: 10vh;
-}
-
 a {
   color: white;
   text-decoration: none;
@@ -69,8 +64,9 @@ li {
 }
 
 .sidebar {
-  width: 300px;
+  width: 200px;
   background: royalblue;
+  flex-shrink: 0;
 }
 
 .card {
